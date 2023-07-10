@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Tag Doors</Text>
+    <Description>Some description for Testing_Tag_01</Description>
+    <Assembly>Testing_Tag_01.dll</Assembly>
+    <FullClassName>Testing_Tag_01.Command</FullClassName>
+    <ClientId>03b36d67-cb60-4822-b412-71b971209a2e</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application Testing_Tag_01</Name>
+    <Assembly>Testing_Tag_01.dll</Assembly>
+    <FullClassName>Testing_Tag_01.App</FullClassName>
+    <ClientId>a5d68ace-33eb-4da0-9b09-29d03e10a2c9</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
